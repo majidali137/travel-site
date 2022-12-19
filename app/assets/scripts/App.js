@@ -2,7 +2,10 @@ import '../styles/styles.css'
 import mobileMenu from './modules/mobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
+import Model from './modules/Models'
 
+
+new Model()
 let stickyHeader = new StickyHeader()
 
  new RevealOnScroll (document.querySelectorAll(".feature-item"), 75)
