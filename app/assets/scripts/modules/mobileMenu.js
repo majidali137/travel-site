@@ -16,4 +16,4 @@ toggleTheMenu() {
 
     
 }
-export default mobileMenu;
+export default MobileMenu;
