@@ -1,4 +1,4 @@
-class mobileMenu {
+class MobileMenu {
     constructor () {
         this.menuIcon = document.querySelector(".site-header__menu-icon")
         this.menuContent = document.querySelector(".site-header__menu-content")
