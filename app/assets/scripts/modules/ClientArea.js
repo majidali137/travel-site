@@ -17,7 +17,7 @@ class ClientArea {
   }
 
   sendRequest() {
-    Axios.post('https://gregarious-axolotl-c972d8.netlify.app/.netlify/functions/secret-area', {password: this.field.value}).then(response => {
+    Axios.post('http://localhost:3000/functions/secret-area', {password: this.field.value}).then(response => {
       this.form.remove()
       this.contentArea.innerHTML = response.data
     }).catch(() => {
